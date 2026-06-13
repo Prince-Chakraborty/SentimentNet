@@ -1,0 +1,26 @@
+# SentimentNet — requirements.txt
+# Tested on: Python 3.11 | macOS Apple Silicon (M-series) | MPS backend
+# Install: pip install -r requirements.txt
+
+# ── Core ML ───────────────────────────────────────────────────────────────
+torch==2.3.1
+torchvision==0.18.1          # optional, pulled in by torch on some platforms
+
+# ── HuggingFace stack ─────────────────────────────────────────────────────
+transformers==4.41.2
+datasets==2.19.2
+tokenizers==0.19.1
+huggingface-hub==0.23.4
+safetensors==0.4.3
+
+# ── Scientific / ML utils ─────────────────────────────────────────────────
+scikit-learn==1.5.0
+numpy==1.26.4
+
+# ── Visualisation ─────────────────────────────────────────────────────────
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# ── Misc ─────────────────────────────────────────────────────────────────
+tqdm==4.66.4
+accelerate==0.31.0           # optional: speeds up HuggingFace model loading
