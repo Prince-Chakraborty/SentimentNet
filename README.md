@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.3.1-EE4C2C?logo=pytorch)
 ![HuggingFace](https://img.shields.io/badge/🤗%20Transformers-4.41-yellow)
-![Accuracy](https://img.shields.io/badge/Test%20Accuracy-93.2%25-brightgreen)
+![Accuracy](https://img.shields.io/badge/Test%20Accuracy-91.12%25-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 > **Binary sentiment classifier** fine-tuned on the IMDB movie review dataset using a custom PyTorch training loop on `distilbert-base-uncased`. Achieves **93%+ test accuracy** while remaining 40% smaller and 60% faster than BERT-base.
@@ -89,10 +89,10 @@ All metrics evaluated on the held-out IMDB test set (25,000 samples).
 
 | Metric    | Score  |
 |-----------|--------|
-| Accuracy  | 93.2%  |
-| F1 Score  | 0.932  |
-| Precision | 0.929  |
-| Recall    | 0.935  |
+| Accuracy  | 91.12% |
+| F1 Score  | 0.9118 |
+| Precision | 0.9058 |
+| Recall    | 0.9180 |
 
 | Class    | Precision | Recall | F1   | Support |
 |----------|-----------|--------|------|---------|
